@@ -48,10 +48,10 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((response) => {
         console.log(response)
-        const logo = logoMaker(response);
-        console.log(logo)
+        const newlogo = logoMaker(response);
+        console.log(newlogo)
         const fileName="./examples/newLogo.svg"
-        writeToFile(fileName,logo)
+        writeToFile(fileName,newlogo)
 
 
     });
