@@ -3,7 +3,7 @@ const Square = require("../lib/square");
 describe("Square", () => {
   
     describe("render", () => {
-      it( () => {
+      it("", () => {
        
         const mySquare = new Square('abc', 'green', 'blue');
         

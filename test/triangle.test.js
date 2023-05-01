@@ -4,7 +4,7 @@ const Triangle = require("../lib/triangle");
 describe("Triangle", () => {
   
     describe("render", () => {
-      it( () => {
+      it("", () => {
        
         const myTriangle = new Triangle('abc', 'green', 'blue');
        

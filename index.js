@@ -50,8 +50,8 @@ function init() {
         console.log(response)
         const logo = logoMaker(response);
         console.log(logo)
-        const fileName="./example/logo.svg"
-        writeToFile(fileName,svg)
+        const fileName="./examples/newLogo.svg"
+        writeToFile(fileName,logo)
 
 
     });

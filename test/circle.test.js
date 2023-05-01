@@ -4,7 +4,7 @@ const Circle = require("../lib/circle");
 describe("Circle", () => {
 
     describe("render", () => {
-    it( () => {
+    it("", () => {
   
       const myCircle = new Circle('abc', 'green', 'blue');
 
